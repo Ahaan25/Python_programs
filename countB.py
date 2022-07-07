@@ -1,4 +1,5 @@
 from itertools import count
-wordinp=input("Enter a word: ")
-countB=wordinp.count('b')
-print(countB)
+def countB(word):
+    countB=word.count('b')
+    print(countB)
+countB('banana')
