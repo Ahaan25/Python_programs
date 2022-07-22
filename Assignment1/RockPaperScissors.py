@@ -5,7 +5,7 @@ computerwin=0
 count=0
 rounds=int(input("Enter number of rounds you want to play(an odd number of rounds): "))
 while count<rounds:
-    userinp = input("Enter your choice: Rock Paper or Scissors! ")
+    userinp=input("Enter your choice: Rock Paper or Scissors! ")
     computerchoice = random.randint(1, 3)
     if computerchoice==1:
             computerinp='Rock'
